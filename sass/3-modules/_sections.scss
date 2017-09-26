@@ -1,0 +1,345 @@
+/* specification section */
+
+.sepcification{
+	
+		background-color: #eeeeef;
+
+	.row{
+		    padding: 0px 20px 130px 20px;
+		    .col-md-3{
+		    	padding: 0px;
+			 	.thumbnail{
+			 		background: none;
+			 		border: none;
+			 		padding: 0px; 
+
+			 		img{
+			 			width: 206px;
+			 			    height: 250px;
+			 			
+			 		}
+			 		
+			 		.caption{
+			 			padding: 0px;
+			 			h3{
+			 				font-size: 16px;
+			 				font-weight: 600;
+			 				text-align: center;
+			 				margin: 25px 0px;
+			 				letter-spacing: 0.02em;
+
+			 			}
+			 			p{
+			 				font-size: 11px;
+			 				text-align: center;
+			 				margin: 0px 0px 5px;
+			 				letter-spacing: 0.02em;
+			 			}
+			 		}
+			 	}
+		}
+	}
+}
+
+/* about section */
+.about{
+	    padding-bottom: 143px;
+		.screen-img{
+			    padding-left: 30px;
+			    img{
+						width: 100%;
+						height: 300px;
+					}
+				}
+		.para{
+			    padding: 3px 24px 0px 10px;
+
+			   p{
+			   	font-size: 13px;
+			   	padding-top: 6px;
+			   	line-height: 24px;
+			   	padding-bottom: 43px;
+			   }
+
+			   a{
+			   		text-decoration: none;
+			   	    padding: 16px 43px;
+			   	    background: $secondary;
+			   	    color: #fff;
+			   	    border-radius: 5px;
+			   	    border-bottom: 4px #4E3909 solid;
+			   	    position: relative;
+					&::after{
+						content: '';
+						  /* position: absolute;
+						  top: -50%;
+						  right: -50%;
+						  bottom: -50%;
+						  left: -50%;
+						  background: linear-gradient(to bottom, rgba(229, 172, 142, 0), rgba(255,255,255,0.5) 50%, rgba(229, 172, 142, 0));
+						  transform: rotateZ(60deg) translate(-5em, 7.5em); */
+						  
+
+					}
+					&:hover{
+						background: #9e4e99;
+						border-bottom: 3px #582154 solid;
+					}	   	
+			   }
+
+	}
+}
+
+
+/* section lorem */
+
+.lorem{
+	background: url('../images/quotebg.jpg') no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+	figure{
+		text-align: center;
+		padding: 100px 0px 30px;
+		margin: 0px;
+
+		img{
+			    width: 135px;
+		}
+
+		h4{
+			font-size: 32px;
+			padding: 25px 3px 80px
+		}
+	}
+}
+
+
+/* section our team */
+.our-team{
+	.heading-our{
+		text-align: center;
+	    padding: 80px 0px 80px;
+	    font-size: 35px;
+	    font-weight: normal;
+	    background: url(../images/aboutbg.png) no-repeat;
+	    background-position: 350px 59px;
+	    background-size: 201px 80px;
+	}
+
+	.arrows{
+		text-align: center;
+		padding-bottom: 110px;
+			a{
+				text-decoration: none;
+			img{
+				height: 45px;
+	    		width: 45px;
+	    		-webkit-transition: transform 0.28s ease-in-out;
+	    		   -moz-transition: transform 0.28s ease-in-out;
+	    		    -ms-transition: transform 0.28s ease-in-out;
+	    		     -o-transition: transform 0.28s ease-in-out;
+	    		        transition: transform 0.28s ease-in-out;
+			}
+		}
+		
+	}
+
+	.row{
+		padding: 0px 10px;
+			.thumbnail{
+				background: none;
+				border: none;
+				padding: 0px;
+				text-align: center;
+				margin-bottom: 0px;
+
+				.team1{
+					width: 170px;
+					height: 170px;
+					background: url('../images/team1.jpg') no-repeat	;
+					border-radius: 100%;
+					margin: 0 auto;
+				}
+
+				.team2{
+					width: 170px;
+					height: 170px;
+					background: url('../images/team2.jpg') no-repeat	;
+					background-position: center;
+					border-radius: 100%;
+					margin: 0 auto;
+				}
+
+				.team3{
+					width: 170px;
+					height: 170px;
+					background: url('../images/team3.jpg') no-repeat	;
+					background-position: center;
+					border-radius: 100%;
+					margin: 0 auto;
+				}
+
+				.caption{
+					padding: 34px 10px;
+					h3{
+						font-size: 16px;
+						font-weight: 600;
+					} 
+
+					p{
+						font-size: 12px;
+					}
+				}
+
+				.social-icon{
+					padding-top: 10px;
+					a{
+						display: inline-block;
+						margin-right: 7.5px;
+						margin-left: 7.5px;
+						img{
+							display: inline-block;
+							width: 32px;
+							height: 32px;	
+							-webkit-transition: transform 0.25s ease-in-out;
+							   -moz-transition: transform 0.25s ease-in-out;
+							    -ms-transition: transform 0.25s ease-in-out;
+							     -o-transition: transform 0.25s ease-in-out;
+							        transition: transform 0.25s ease-in-out;
+
+						}
+
+						.facebook:hover{
+							content: url('../images/fhr.png');
+							-webkit-transform: scale(1.2);
+							   -moz-transform: scale(1.2);
+							    -ms-transform: scale(1.2);
+							     -o-transform: scale(1.2);
+							        transform: scale(1.2);
+						}
+						.google:hover{
+							content: url('../images/ghr.png');
+							-webkit-transform: scale(1.2);
+							   -moz-transform: scale(1.2);
+							    -ms-transform: scale(1.2);
+							     -o-transform: scale(1.2);
+							        transform: scale(1.2);
+						}
+					}
+				}
+			}
+		}
+}
+
+
+/* section our skills */
+
+.our-skills{
+	.heading-skills{
+		text-align: center;
+	    padding: 46px 0px 150px;
+	    font-size: 35px;
+	    font-weight: normal;
+	    background: url(../images/aboutbg.png) no-repeat;
+	    background-position: 298px 25px;
+	    background-size: 201px 80px;
+	}
+
+	.row{
+		padding: 0px 80px;
+		margin-bottom: 100px;
+		p{
+			position: relative;
+
+		.title{
+			font-size: 16px;
+		    font-weight: 600;
+		    text-transform: uppercase;
+		}
+			.percent{
+				font-size: 16px;
+				right: 16px;
+				position: absolute;
+			}
+
+		}
+			.progress{
+				height: 13px;
+				border-radius: 0px;
+				width: 93%;
+				margin-bottom: 35px;
+
+				.progress-bar{
+					background-color: $secondary;
+					
+				}
+			}
+
+		.right-progress{
+			padding: 0px 0px 0px 34px;
+		}
+	}
+}
+
+
+/* section service lorem */
+
+.services-lorem{
+	background: url('../images/quotebg.png') no-repeat;
+	background-size: cover;
+	background-position: center;
+
+	figure{
+		text-align: center;
+		padding: 100px 0px 5px;
+		margin: 0px;
+
+		img{
+			    width: 135px;
+		}
+
+		h4{
+			font-size: 32px;
+			padding: 25px 3px 50px
+		}
+	}
+}
+
+footer{
+	background-color: #010810;
+	color: $light;
+	padding-bottom: 90px;
+	h2{
+		text-transform: uppercase;
+		a{
+			color: $light;
+			text-decoration: none;
+			
+		}
+	}
+
+	.copyright{
+		margin-top: 28px;
+		font-size: 14px;
+		letter-spacing: 0.03em;
+	}
+
+	.Follow{
+		margin-top:10px; 
+		ul{
+			list-style: none;
+			padding: 0px;
+			li{
+					display: inline-block;
+				}
+			
+		}
+	}
+}
+
+.website-logo{
+	text-decoration: none !important;
+	color: $light;
+}

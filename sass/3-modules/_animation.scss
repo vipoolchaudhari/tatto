@@ -1,0 +1,75 @@
+.ninty{
+	-webkit-animation: ninty 5s linear infinite;
+	   -moz-animation: ninty 5s linear infinite;
+	    -ms-animation: ninty 5s linear infinite;
+	     -o-animation: ninty 5s linear infinite;
+	        animation: ninty 5s linear infinite;
+}
+
+.seventyfive{
+	-webkit-animation: seventyfive 5s linear infinite;
+	   -moz-animation: seventyfive 5s linear infinite;
+	    -ms-animation: seventyfive 5s linear infinite;
+	     -o-animation: seventyfive 5s linear infinite;
+	        animation: seventyfive 5s linear infinite;
+}
+
+.seventy{
+	-webkit-animation: seventy 5s linear infinite;
+	   -moz-animation: seventy 5s linear infinite;
+	    -ms-animation: seventy 5s linear infinite;
+	     -o-animation: seventy 5s linear infinite;
+	        animation: seventy 5s linear infinite;
+}
+.eightyfive{
+	-webkit-animation: eightyfive 5s linear infinite;
+	   -moz-animation: eightyfive 5s linear infinite;
+	    -ms-animation: eightyfive 5s linear infinite;
+	     -o-animation: eightyfive 5s linear infinite;
+	        animation: eightyfive 5s linear infinite;
+}
+
+@keyframes ninty {
+				    0%{
+				    	width: 0%;
+				    }
+				    50%{
+				    	width: 88.5%;
+				    }
+				    100%{
+				    	width: 88.5%;
+				    }
+				}
+@keyframes seventyfive {
+				    0%{
+				    	width: 0%;
+				    }
+				    50%{
+				    	width: 75%;
+				    }
+				    100%{
+				    	width: 75%;
+				    }
+				}
+@keyframes seventy {
+				    0%{
+				    	width: 0%;
+				    }
+				    50%{
+				    	width: 71.5%;
+				    }
+				    100%{
+				    	width: 71.5%;
+				    }
+				}
+@keyframes eightyfive {
+				    0%{
+				    	width: 0%;
+				    }
+				    50%{
+				    	width: 82.5%;
+				    }
+				    100%{
+				    	width: 82.5%;
+				    }
+				}
