@@ -13,9 +13,9 @@
 				font-size: 80px;
 				background: rgba(52, 50, 50, 0.63);
 				font-family: 'Cabin Sketch', cursive;
+				padding: 0px;
 				img{
-					height: 74px;
-					width: 325px;
+					height: 70px;
 				}
 			}
 		}
@@ -126,9 +126,17 @@
 				margin: 0px;
 				font-size: 35px;
 				color: $primary;
+				padding: 0px;
 
 				img{
-					height: 25px;
+					display: inline-block;
+				}
+				.logo{
+					height: 70px;
+				}
+
+				.name{
+					    height: 18px;
 				}
 			} 
 

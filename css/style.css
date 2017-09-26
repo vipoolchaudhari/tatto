@@ -404,10 +404,10 @@ template {
       color: #fff;
       font-size: 80px;
       background: rgba(52, 50, 50, 0.63);
-      font-family: 'Cabin Sketch', cursive; }
+      font-family: 'Cabin Sketch', cursive;
+      padding: 0px; }
       .background h1 a img {
-        height: 74px;
-        width: 325px; }
+        height: 70px; }
   .background h2 {
     text-align: center;
     font-size: 32px; }
@@ -484,9 +484,14 @@ template {
     .background .navbar-default .navbar-brand {
       margin: 0px;
       font-size: 35px;
-      color: #777; }
+      color: #777;
+      padding: 0px; }
       .background .navbar-default .navbar-brand img {
-        height: 25px; }
+        display: inline-block; }
+      .background .navbar-default .navbar-brand .logo {
+        height: 70px; }
+      .background .navbar-default .navbar-brand .name {
+        height: 18px; }
     .background .navbar-default .navbar-right {
       text-transform: uppercase; }
       .background .navbar-default .navbar-right li {
@@ -832,8 +837,8 @@ footer {
       text-align: center;
       margin: 30px 0px 20px; }
       .background h1 a img {
-        height: 60px;
-        width: 280px; }
+        height: 33px;
+        width: 60px; }
     .background h2 {
       font-size: 20px; }
     .background p {
@@ -844,7 +849,7 @@ footer {
       .background .nav-boundary .nav-arrow {
         margin: 0px; }
         .background .nav-boundary .nav-arrow a {
-          margin-bottom: 10px; }
+          margin-bottom: 50px; }
 
   .container-width {
     padding: 0 5%; }
@@ -910,6 +915,13 @@ footer {
     padding: 60px 0px 60px; }
 
   .about .para {
-    text-align: center; } }
+    text-align: center; }
+
+  .background .nav-boundary .nav-bottom {
+    height: 100vh; }
+
+  .background .navbar-default .navbar-brand .logo {
+    height: 60px;
+    width: 60px; } }
 
 /*# sourceMappingURL=style.css.map */
